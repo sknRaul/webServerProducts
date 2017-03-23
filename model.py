@@ -1,9 +1,9 @@
 import web
 
-db_host = 'localhost'#host
-db_name = 'products'#nombre de la base de datos
-db_user = 'root'#usuario
-db_passworld = '1234'#contrasena
+db_host = 'y0nkiij6humroewt.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'#host
+db_name = 'gpw5td5hlz65mrqa'#nombre de la base de datos
+db_user = 'whhb7hzets64lglk'#usuario
+db_passworld = 'u9to7skhda094huz'#contrasena
 
 db = web.database(#Metodo de conexion
 		dbn = 'mysql',#Tipo de servidor
