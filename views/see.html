@@ -8,7 +8,7 @@ $def with(product)
 	    <div class="form-group">
 	      <label for="producto" class="col-lg-2 control-label">Producto</label>
 	      <div class="col-lg-10">
-	        <input type="text" class="form-control" id="producto" required name="product" value=$product.product disabled>
+	        <input type="text" class="form-control" id="producto" required name="product" value="$product.product" disabled>
 	      </div>
 	    </div>
 
@@ -39,6 +39,8 @@ $def with(product)
 	        <input type="text" class="form-control" id="precio_venta" required name="sale_price" value=$product.sale_price disabled>
 	      </div>
 	    </div>
+
+	    <img src="../static/images/$product.image_product">
 
 	    <div class="form-group">
 	      <div class="col-lg-10 col-lg-offset-2">
