@@ -31,7 +31,7 @@ class Edit:
 	def POST(self, id_product):
 		form = web.input()
 		model.update_product(form.id, form.product, form.description, form.stock, form.cost_price, form.sale_price)
-		raise web.seeother('/index')
+		raise web.seeother('/')
 
 class Add:
 	def GET(self):
